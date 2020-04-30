@@ -1,0 +1,19 @@
+@font-face {
+  font-family: LeagueGothic-Regular;
+  src: url(./Fonts/LeagueGothic-Regular.otf);
+}
+
+@font-face {
+    font-family: Montserrat-Black;
+    src: url(./Fonts/montserrat/Montserrat-Black.ttf);
+  }
+
+.sendForm {
+  margin-top: 1.5em;
+  background: linear-gradient(45deg, #ff0081, #6827b0);
+  font-weight: bold;
+  text-shadow: 2px 1px 2px black;
+  font-family: Montserrat-Black;
+  letter-spacing: 1px;
+  /* font-size: 2em; */
+}
