@@ -36,30 +36,30 @@ export default function FormFill() {
   };
   return (
     <Form onSubmit={handleInput}>
-      <Input
+      <input
         type="text"
         value={name}
         {...bindName}
         style={inputSty}
         placeholder="Nombre"
-      ></Input>
-      <Input
+      ></input>
+      <input
         type="text"
         value={email}
         {...bindEmail}
         style={inputSty}
         placeholder="Correo"
-      ></Input>
-      <Input
+      ></input>
+      <input
         type="text"
         value={account}
         {...bindAccount}
         style={inputSty}
         placeholder="Twitter"
-      ></Input>
+      ></input>
       <Button
         className="col-8 sendForm"
-        //   className={this.state.activeThumb ? "jello-horizontal" : "none"}
+          // className={this.state.activeThumb ? "jello-horizontal" : "none"}
         //   onClick={this.sendData}
       >
         Enviar

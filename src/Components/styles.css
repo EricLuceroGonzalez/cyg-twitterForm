@@ -32,6 +32,6 @@ color: white;
 font-family: Montserrat-Light;
 }
 
-.plc{
-  color: red;
+Input::placeholder{
+  color: white;
 }
