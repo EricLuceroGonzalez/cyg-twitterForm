@@ -25,7 +25,7 @@ function HomePage() {
             textTransform: "lowercase",
           }}
         >
-          Comparte anuncios en Twitter y cámbialos por dinero
+          Comparte anuncios y cámbialos por dinero
         </span>
         </p>
       </div>
