@@ -9,7 +9,7 @@ const basicStyle = {
 function HomePage() {
   return (
     <div className="row">
-      <div className="col-md-6 col-12" style={{ margin: "50px auto" }}>
+      <div className="col-md-6 col-12" style={{ margin: "20px auto" }}>
         <p
           style={{
             fontFamily: "Montserrat-Black",
@@ -17,8 +17,8 @@ function HomePage() {
           }}
         >
           Ya no tienes que ser famoso para ganar dinero con tus redes sociales
-        </p>
-        <span
+          <br></br>
+          <span
           style={{
             fontSize: "0.75em",
             fontFamily: "Montserrat-Light",
@@ -27,11 +27,12 @@ function HomePage() {
         >
           Comparte anuncios en Twitter y cámbialos por dinero
         </span>
+        </p>
       </div>
       <div className="col-md-6 col-12" style={basicStyle}>
         <h6
           style={{
-            margin: "3px auto",
+            // margin: "3px auto",
             fontFamily: "Montserrat-Black",
             textTransform: "uppercase",
           }}
