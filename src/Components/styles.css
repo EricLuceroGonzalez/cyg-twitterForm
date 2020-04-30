@@ -13,13 +13,13 @@
   } 
 
 .sendForm {
-  margin-top: 1.5em;
-  background: linear-gradient(45deg, #ff0081, #6827b0);
+  margin-top: 0.5em;
+  background: white;
   font-weight: bold;
-  text-shadow: 2px 1px 2px black;
+  border: 0;
+  color: #47d486;
   font-family: Montserrat-Black;
   letter-spacing: 1px;
-  /* font-size: 2em; */
 }
 
 .theFooter{

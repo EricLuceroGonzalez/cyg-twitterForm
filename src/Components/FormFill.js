@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useInput } from "../hooks/input-hook";
 import { Form, Label, Button, Input } from "reactstrap";
-import './styles.css'
+import "./styles.css";
 
 const inputSty = {
   outline: "none",
@@ -15,18 +15,8 @@ const inputSty = {
   fontWeight: "500",
   lineHeight: "inherit",
   transition: "0.3s ease",
-  fontFamily: 'Montserrat-Black',
-  textShadow: '1px 1px black'
-};
-
-const labelSty = {
-  display: "block",
-  margin: "5px auto",
-  color: "white",
-  lineHeight: "1",
-  textTransform: "uppercase",
-  letterSpacing: ".2em",
-  fontFamily: 'Montserrat-Black'
+  fontFamily: "Montserrat-Black",
+  // textShadow: "1px 1px black",
 };
 
 export default function FormFill() {
@@ -45,40 +35,34 @@ export default function FormFill() {
   };
   return (
     <Form onSubmit={handleInput}>
-      <Label style={labelSty}>
-        Nombre:
-        <Input type="text" value={name} {...bindName} style={inputSty}></Input>
-      </Label>
-      <Label style={labelSty}>
-        Correo:
-        <Input
-          type="text"
-          value={email}
-          {...bindEmail}
-          style={inputSty}
-        ></Input>
-      </Label>
-      <Label style={labelSty}>
-        Twitter:
-        <Input
-          type="text"
-          value={account}
-          {...bindAccount}
-          style={inputSty}
-        ></Input>
-      </Label>
+      <Input
+        type="text"
+        value={name}
+        {...bindName}
+        style={inputSty}
+        placeholder="Nombre"
+      ></Input>
+      <Input
+        type="text"
+        value={email}
+        {...bindEmail}
+        style={inputSty}
+        placeholder="Correo"
+      ></Input>
+      <Input
+        type="text"
+        value={account}
+        {...bindAccount}
+        style={inputSty}
+        placeholder="Twitter"
+      ></Input>
       <Button
         className="col-8 sendForm"
         //   className={this.state.activeThumb ? "jello-horizontal" : "none"}
         //   onClick={this.sendData}
       >
         Enviar
-        <span role="img" aria-label="star-dust">
-          {" "}
-          {"\u2728"}
-        </span>
       </Button>
     </Form>
   );
 }
-

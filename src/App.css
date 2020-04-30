@@ -31,7 +31,6 @@ div > h3 {
   /* background: linear-gradient(45deg, #ff0080, #6827b0); */
   /* background: linear-gradient(45deg, #1da1f2, #6827b0);   */
   background: linear-gradient(45deg, #53e996, #07774c);  
-
   border-radius: 0 0 50% 50%/0 0 50% 50%;
   transform: scaleX(1.5)
 }
