@@ -9,16 +9,24 @@ const basicStyle = {
 function HomePage() {
   return (
     <div className="row">
-      <div className="col-md-6 col-12" style={basicStyle}>
+      <div className="col-md-6 col-12" style={{ margin: "50px auto" }}>
         <p
           style={{
-            margin: "50px auto",
             fontFamily: "Montserrat-Black",
             textTransform: "uppercase",
           }}
         >
           Ya no tienes que ser famoso para ganar dinero con tus redes sociales
         </p>
+        <span
+          style={{
+            fontSize: "0.75em",
+            fontFamily: "Montserrat-Light",
+            textTransform: "lowercase",
+          }}
+        >
+          Comparte anuncios en Twitter y cámbialos por dinero
+        </span>
       </div>
       <div className="col-md-6 col-12" style={basicStyle}>
         <h6
@@ -28,7 +36,7 @@ function HomePage() {
             textTransform: "uppercase",
           }}
         >
-          Formulario de Registro
+          Formulario de invitación
         </h6>
         <FormFill></FormFill>
       </div>
