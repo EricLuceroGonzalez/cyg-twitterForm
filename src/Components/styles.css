@@ -7,6 +7,10 @@
     font-family: Montserrat-Black;
     src: url(./Fonts/montserrat/Montserrat-Black.ttf);
   }
+  @font-face {
+    font-family: Montserrat-Light;
+    src: url(./Fonts/montserrat/Montserrat-Light.ttf);
+  } 
 
 .sendForm {
   margin-top: 1.5em;
@@ -16,4 +20,9 @@
   font-family: Montserrat-Black;
   letter-spacing: 1px;
   /* font-size: 2em; */
+}
+
+.theFooter{
+color: white;
+font-family: Montserrat-Light;
 }
