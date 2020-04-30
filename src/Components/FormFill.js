@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import { useInput } from "../hooks/input-hook";
 import { Form, Label, Button, Input } from "reactstrap";
+import { InputGroup, InputGroupAddon, InputGroupText } from 'reactstrap';
 import "./styles.css";
 
 const inputSty = {
   outline: "none",
   display: "block",
-  background: "rgba(100,100,100, 0.4)",
+  background: "rgba(130,130,130, 0.4)",
   margin: "5px auto",
   border: "0",
   borderRadius: "8px",
@@ -15,7 +16,7 @@ const inputSty = {
   fontWeight: "500",
   lineHeight: "inherit",
   transition: "0.3s ease",
-  fontFamily: "Montserrat-Black",
+  fontFamily: "Montserrat",
   // textShadow: "1px 1px black",
 };
 

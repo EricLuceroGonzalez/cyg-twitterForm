@@ -12,6 +12,11 @@
     src: url(./Fonts/montserrat/Montserrat-Light.ttf);
   } 
 
+  @font-face {
+    font-family: Montserrat;
+    src: url(./Fonts/montserrat/Montserrat-Regular.ttf);
+  } 
+
 .sendForm {
   margin-top: 0.5em;
   background: white;
@@ -25,4 +30,8 @@
 .theFooter{
 color: white;
 font-family: Montserrat-Light;
+}
+
+.plc{
+  color: red;
 }
