@@ -25,6 +25,9 @@
   color: #47d486;
   font-family: Montserrat-Black;
   letter-spacing: 1px;
+  border-radius: "8px";
+  font-size: 0.85em;
+  padding: 5px 35px;
 }
 
 .theFooter{

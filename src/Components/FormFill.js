@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import { useInput } from "../hooks/input-hook";
 import { Form, Label, Button, Input } from "reactstrap";
-import { InputGroup, InputGroupAddon, InputGroupText } from 'reactstrap';
+import { InputGroup, InputGroupAddon, InputGroupText } from "reactstrap";
 import "./styles.css";
+import "./checkBox.css";
 
 const inputSty = {
   outline: "none",
@@ -35,35 +36,44 @@ export default function FormFill() {
     resetEmail();
   };
   return (
-    <Form onSubmit={handleInput}>
-      <input
-        type="text"
-        value={name}
-        {...bindName}
+    <div>
+      <Form className="col-10 mr-auto ml-auto" onSubmit={handleInput}>
+        <input
+          type="text"
+          value={name}
+          {...bindName}
+          style={inputSty}
+          placeholder="Nombre"
+        ></input>
+        <input
+          type="text"
+          value={email}
+          {...bindEmail}
+          style={inputSty}
+          placeholder="Correo"
+        ></input>
+        <input
+          type="text"
+          value={account}
+          {...bindAccount}
+          style={inputSty}
+          placeholder="Twitter"
+        ></input>
+        <label
         style={inputSty}
-        placeholder="Nombre"
-      ></input>
-      <input
-        type="text"
-        value={email}
-        {...bindEmail}
-        style={inputSty}
-        placeholder="Correo"
-      ></input>
-      <input
-        type="text"
-        value={account}
-        {...bindAccount}
-        style={inputSty}
-        placeholder="Twitter"
-      ></input>
-      <Button
-        className="col-8 sendForm"
+         className="container col-md-10 col-8">
+        <input type="checkbox"></input>
+        <span className="checkmark"></span>
+          Soy mayor de 18
+        </label>
+        <Button
+          className="mr-auto ml-auto sendForm"
           // className={this.state.activeThumb ? "jello-horizontal" : "none"}
-        //   onClick={this.sendData}
-      >
-        Enviar
-      </Button>
-    </Form>
+          //   onClick={this.sendData}
+        >
+          Enviar
+        </Button>
+      </Form>
+    </div>
   );
 }

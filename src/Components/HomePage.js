@@ -29,7 +29,7 @@ function HomePage() {
         </span>
         </p>
       </div>
-      <div className="col-md-6 col-12" style={basicStyle}>
+      <div className="col-md-6 col-12 mr-auto ml-auto" style={basicStyle}>
         <h6
           style={{
             // margin: "3px auto",
