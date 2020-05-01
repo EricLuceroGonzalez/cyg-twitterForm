@@ -16,7 +16,6 @@ export default function Footer() {
         }}
       >
         <span style={{ fontWeight: "bold" }}>PayWithATweet.com</span>
-        <div className="theFooter">Gana dinero extra, comparte anuncios en Twitter y retira el pago en 200 países en todo el mundo.</div>
       </div>
     </React.Fragment>
   );

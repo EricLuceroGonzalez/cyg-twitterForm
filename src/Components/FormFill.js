@@ -12,7 +12,7 @@ const inputSty = {
   margin: "5px auto",
   border: "0",
   borderRadius: "8px",
-  padding: "2px 20px",
+  padding: "2px 18px",
   color: "white",
   fontWeight: "500",
   lineHeight: "inherit",
@@ -37,7 +37,7 @@ export default function FormFill() {
   };
   return (
     <div>
-      <Form className="col-10 mr-auto ml-auto" onSubmit={handleInput}>
+      <Form  onSubmit={handleInput}>
         <input
           type="text"
           value={name}
@@ -61,10 +61,10 @@ export default function FormFill() {
         ></input>
         <label
         style={inputSty}
-         className="container col-md-10 col-8">
+         className="container col-sm-6 col-md-8 col-8">
         <input type="checkbox"></input>
         <span className="checkmark"></span>
-          Soy mayor de 18
+          Soy mayor de 18 años
         </label>
         <Button
           className="mr-auto ml-auto sendForm"
