@@ -1,15 +1,10 @@
 import React from "react";
 import FormFill from "./FormFill";
 
-const basicStyle = {
-  margin: "10px auto",
-  // border: "1px solid",
-};
-
 function HomePage() {
   return (
     <div className="row">
-      <div className="col-md-6 col-12" style={{ margin: "20px auto" }}>
+      <div className="col-md-6 col-12" style={{ margin: "20px auto 0px auto" }}>
         <p
           style={{
             fontFamily: "Montserrat-Black",
@@ -29,10 +24,11 @@ function HomePage() {
         </span>
         </p>
       </div>
-      <div className="col-md-6 col-12 mr-auto ml-auto" style={basicStyle}>
+      <div className="col-md-6 col-12 mr-auto ml-auto">
         <h6
           style={{
             // margin: "3px auto",
+            fontSize:'12px',
             fontFamily: "Montserrat-Black",
             textTransform: "uppercase",
           }}

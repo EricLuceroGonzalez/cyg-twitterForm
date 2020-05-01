@@ -18,7 +18,7 @@
   } 
 
 .sendForm {
-  margin-top: 0.5em;
+  /* margin-top: 0.5em; */
   background: white;
   font-weight: bold;
   border: 0;
@@ -26,8 +26,8 @@
   font-family: Montserrat-Black;
   letter-spacing: 1px;
   border-radius: "8px";
-  font-size: 0.85em;
-  padding: 5px 35px;
+  font-size: 10px;
+  padding: 3px 45px;
 }
 
 .theFooter{

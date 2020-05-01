@@ -1,0 +1,16 @@
+.inputStyle {
+  outline:none;
+  display:block;
+  background-color:rgba(130,130,130, 0.4);
+  margin:4px auto;
+  border:0;
+  border-radius:8px;
+  padding:2px 18px;
+  font-size:12px;
+  color:white;
+  font-weight:500;
+  line-height:inherit;
+  transition:0.3s ease;
+  font-family:Montserrat;
+  /* // textShadow:1px 1px black; */
+}
